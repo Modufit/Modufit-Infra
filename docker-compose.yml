@@ -1,0 +1,87 @@
+version: '3.0'
+
+services:
+  # MySQL 데이터베이스 서비스
+  mysql:
+    image: mysql:8.0
+    container_name: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - modufit-network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-prootpassword"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Backend Spring Boot API 서비스
+  backend:
+    build:
+      # Dockerfile이 있는 경로
+      context: ../Modufit-Backend
+      dockerfile: Dockerfile
+    container_name: modufit-backend
+    restart: always
+    environment:
+      # Spring 프로파일 설정
+      SPRING_PROFILES_ACTIVE: prod
+      # 데이터베이스 연결 정보
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/modufit_db?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+      SPRING_DATASOURCE_USERNAME: ${MYSQL_USER}
+      SPRING_DATASOURCE_PASSWORD: ${MYSQL_PASSWORD}
+      # JPA 설정
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
+      SPRING_JPA_SHOW_SQL: "false"
+      # 서버 포트
+      SERVER_PORT: 8080
+    ports:
+      # 호스트:컨테이너 포트 매핑
+      - "8080:8080"
+    depends_on:
+      mysql:
+        # MySQL이 healthy 상태가 될 때까지 대기
+        condition: service_healthy
+    networks:
+      - modufit-network
+    volumes:
+      # 로그 파일 저장을 위한 볼륨 (선택사항)
+      - ./logs:/app/logs
+
+  # Frontend 정적 웹 서비스
+  frontend:
+    build:
+      context: ../Modufit-Frontend
+      dockerfile: Dockerfile
+    container_name: modufit-frontend
+    restart: always
+    ports:
+      # 호스트:컨테이너 포트 매핑
+      - "80:80"
+    volumes:
+      - ../Modufit-Frontend/src:/usr/share/nginx/html:ro
+    depends_on:
+      # Backend가 시작된 후 Frontend 시작
+      - backend
+    networks:
+      - modufit-network
+
+# 데이터 영속성을 위한 볼륨 정의
+volumes:
+  mysql_data:
+    driver: local
+  backend_logs:
+    driver: local
+
+# 컨테이너 간 통신을 위한 네트워크 정의
+networks:
+  modufit-network:
+    driver: bridge

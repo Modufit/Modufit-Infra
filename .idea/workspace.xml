@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b6b55be3-8887-4c9e-a367-e887248f8823" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/ISSUE_TEMPLATE/issue-template.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/pull_request_template.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/ModuFitApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/chat/controller/ChatController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/chat/controller/ChatParticipantController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/chat/controller/ChatRoomController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/chat/dto/ChatParticipantListItemDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/chat/dto/ChatRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/chat/dto/ChatResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/chat/dto/ChatRoomDetailResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/chat/dto/ChatRoomListItemDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/chat/dto/PageChatRoomResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/chat/dto/enums/MessageType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/chat/entity/ChatMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/chat/entity/ChatParticipant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/chat/entity/ChatRoom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/chat/repository/ChatMessageRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/chat/repository/ChatParticipantRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/chat/repository/ChatRoomRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/chat/repository/customer/ChatRoomCustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/chat/repository/customer/ChatRoomCustomerRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/chat/service/ChatMessageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/chat/service/ChatParticipantService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/chat/service/ChatRoomService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/chat/service/impl/ChatMessageServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/chat/service/impl/ChatParticipantServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/chat/service/impl/ChatRoomServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/common/ApiResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/common/BaseCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/common/BaseTimeEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/common/exception/BusinessException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/common/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/common/exception/business/ChatExceptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/common/exception/business/FacilityExceptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/common/exception/business/ParticipantExceptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/common/exception/business/UserExceptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/config/QueryDSLConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/config/WebSocketConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/facility/controller/FacilityController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/facility/controller/FavoriteFacilityController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/facility/dto/FacilityDetailDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/facility/dto/FacilityDetailResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/facility/dto/FacilityProgramListItemDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/facility/dto/FacilityScheduleListItemDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/facility/dto/FacilitySummaryDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/facility/dto/FavoriteFacilityResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/facility/dto/ListFacilityProgramResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/facility/dto/ListFacilityScheduleResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/facility/entity/Facility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/facility/entity/FacilityProgram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/facility/entity/FacilitySchedule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/facility/entity/FavoriteFacility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/facility/entity/enums/ScheduleStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/facility/repository/FacilityProgramRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/facility/repository/FacilityRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/facility/repository/FacilityScheduleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/facility/repository/FavoriteFacilityRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/facility/service/FacilityProgramService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/facility/service/FacilityScheduleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/facility/service/FacilityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/facility/service/FavoriteFacilityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/facility/service/impl/FacilityProgramServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/facility/service/impl/FacilityScheduleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/facility/service/impl/FacilityServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/facility/service/impl/FavoriteFacilityServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/users/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/users/entity/UserProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/users/entity/enums/AgeGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/users/entity/enums/GenderType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/users/entity/enums/UserType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/users/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/users/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/modufit/users/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/chatTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/modufit/ModuFitApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="37W7vEtLHPFCiYDNffZERUP3zEW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "dev",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/hyewo/Documents/ModuFit/Modufit-Backend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="b6b55be3-8887-4c9e-a367-e887248f8823" name="변경" comment="" />
+      <created>1738544987651</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738544987651</updated>
+      <workItem from="1767007204807" duration="16000" />
+      <workItem from="1767007289817" duration="7128000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
